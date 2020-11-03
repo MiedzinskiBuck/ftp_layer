@@ -28,6 +28,8 @@ To do so, we need to generate a **TOR-HASH**.
 
 Then, we need to uncomment the line with **HashedControlPassword 16:5D24B24133137E1660FABCFB6F4662FAABACA785A56CD02E91AA0BADB2** and change the hash with the newly generated one.
 
+The final configuration that needs to be done is in the **Python Script** itself. You just need to change the password of the **controller.autenticate(password=[password])** with the one you created in the previous step.
+
 Thats pretty much it! Now you should be able to use the tool.
 
 ## Usage
